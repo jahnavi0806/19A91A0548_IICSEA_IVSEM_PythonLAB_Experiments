@@ -1,0 +1,14 @@
+#Write a program to use split and join methods in the string and trace a 
+#Birthday with a dictionary data structure
+
+
+bdaystr=input("Enter date of birth:\n") 
+bdaylist=bdaystr.split("/") 
+bday='-'.join(bdaylist) 
+bdaydict={"birthday":bday} 
+if 'birthday' in bdaydict: 
+   print(bdaydict['birthday'])
+#Output::
+Enter date of birth:
+01/01/2017 
+01-01-2017
